@@ -1,0 +1,7 @@
+.skill-icons i {
+  font-size: 80px;
+}
+.skill-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

@@ -3,7 +3,8 @@ import logo from "../assets/logo.png";
 import "./Home.css";
 import HomeNav from "./HomeNav";
 
-import ProjectHighlights from "./ProjectHighlights";
+import ProjectHighlights from "./components/ProjectHighlights";
+import SkillSet from "./components/SkillSet";
 function Home() {
   return (
     <div className="home">
@@ -20,6 +21,7 @@ function Home() {
         </div>
       </div>
       <ProjectHighlights />
+      <SkillSet />
     </div>
   );
 }

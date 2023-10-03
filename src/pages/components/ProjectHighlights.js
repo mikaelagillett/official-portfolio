@@ -1,6 +1,6 @@
-import latestOne from "../assets/dictionary-app-lg.png";
-import latestTwo from "../assets/weather-app-lg.png";
-import latestThree from "../assets/stephen-king-lg.png";
+import latestOne from "../../assets/dictionary-app-lg.png";
+import latestTwo from "../../assets/weather-app-lg.png";
+import latestThree from "../../assets/stephen-king-lg.png";
 import { useState } from "react";
 import "./ProjectHighlights.css";
 
