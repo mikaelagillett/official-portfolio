@@ -21,3 +21,27 @@ span a {
   color: black;
   font-size: 35px;
 }
+
+@media (max-width: 800px) {
+  .project-highlight .carousel {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+  .project-highlight img {
+    width: 100%;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+  .project-highlight .d-none {
+    display: block !important;
+  }
+  .project-highlight h3 {
+    font-size: 30px;
+  }
+  span,
+  span a {
+    font-size: 25px;
+  }
+}

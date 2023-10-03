@@ -3,7 +3,10 @@
   src: url("./assets/fonts/TAN\ -\ MERINGUE.ttf"),
     url("./assets/fonts/TAN\ -\ MERINGUE.woff");
 }
-
+.App {
+  margin: 0 auto;
+  width: 100vw;
+}
 .App-header {
   min-height: 100vh;
   display: flex;
