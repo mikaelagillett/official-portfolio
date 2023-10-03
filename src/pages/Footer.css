@@ -1,0 +1,39 @@
+footer {
+  text-align: center;
+}
+
+footer h3,
+footer a {
+  font-family: "TAN Meringue", sans-serif;
+  font-size: 40px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .email {
+  background-color: black;
+  padding: 15px;
+}
+
+footer i {
+  font-size: 80px;
+  color: black;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 800px) {
+  footer h3,
+  footer a {
+    font-size: 30px;
+  }
+  footer i {
+    font-size: 60px;
+  }
+}

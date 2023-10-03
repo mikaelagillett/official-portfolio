@@ -6,22 +6,22 @@ function HomeNav() {
           <ul className="navbar-nav align-items-center">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="/">
-                <i class="bi bi-house"></i>
+                <i className="bi bi-house"></i>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">
-                <i class="bi bi-person-circle"></i>
+                <i className="bi bi-person-circle"></i>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">
-                <i class="bi bi-code"></i>
+                <i className="bi bi-code"></i>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">
-                <i class="bi bi-envelope"></i>
+                <i className="bi bi-envelope"></i>
               </a>
             </li>
           </ul>

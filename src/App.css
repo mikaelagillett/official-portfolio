@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "TAN Meringue";
+  src: url("./assets/fonts/TAN\ -\ MERINGUE.ttf"),
+    url("./assets/fonts/TAN\ -\ MERINGUE.woff");
+}
+
 .App-header {
   min-height: 100vh;
   display: flex;
