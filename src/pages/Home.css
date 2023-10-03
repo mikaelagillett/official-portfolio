@@ -1,0 +1,50 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+.logo {
+  width: 350px;
+}
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 50px;
+  max-width: 40vw;
+}
+.container-fluid {
+  justify-content: end !important;
+}
+
+i {
+  font-size: 45px;
+  padding: 15px 0;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-evenly;
+  }
+  .logo {
+    width: 300px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-size: 35px;
+    max-width: 80vw;
+    text-align: center;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  i {
+    padding: 0 15px;
+  }
+}
