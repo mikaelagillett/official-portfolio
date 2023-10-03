@@ -1,0 +1,23 @@
+.project-highlight .carousel {
+  width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+.project-highlight img {
+  width: 100%;
+  border-radius: 20px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+h3 {
+  font-family: "TAN Meringue", sans-serif;
+  font-size: 40px;
+}
+span,
+span a {
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}

@@ -1,7 +1,9 @@
 import logo from "../assets/logo.png";
+
 import "./Home.css";
 import HomeNav from "./HomeNav";
 
+import ProjectHighlights from "./ProjectHighlights";
 function Home() {
   return (
     <div className="home">
@@ -17,9 +19,7 @@ function Home() {
           <HomeNav />
         </div>
       </div>
-      <section className="project-highlight">
-        <h4>latest projects</h4>
-      </section>
+      <ProjectHighlights />
     </div>
   );
 }
