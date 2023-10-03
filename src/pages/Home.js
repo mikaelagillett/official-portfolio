@@ -1,7 +1,7 @@
 import logo from "../assets/logo.png";
 
 import "./Home.css";
-import HomeNav from "./HomeNav";
+import HomeNav from "./components/HomeNav";
 
 import ProjectHighlights from "./components/ProjectHighlights";
 import SkillSet from "./components/SkillSet";
