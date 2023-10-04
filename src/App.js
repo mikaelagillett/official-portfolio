@@ -1,6 +1,7 @@
 import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Projects from "./pages/Projects";
 import Footer from "./pages/components/Footer";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Home />
       <About />
+      <Projects />
       <Footer />
     </div>
   );
