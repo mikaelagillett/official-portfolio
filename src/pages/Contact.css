@@ -1,0 +1,47 @@
+.contact-page {
+  min-height: 100vh;
+}
+.contact {
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 20px;
+}
+
+.contact h3,
+.contact a {
+  font-family: "TAN Meringue", sans-serif;
+  font-size: 40px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact .email {
+  background-color: black;
+  padding: 15px;
+}
+
+.contact i {
+  font-size: 80px;
+  color: black;
+}
+
+.contact .social-icons {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 800px) {
+  .contact h3 {
+    font-size: 30px;
+  }
+  .contact a {
+    font-size: 20px;
+  }
+  .contact i {
+    font-size: 60px;
+  }
+}
