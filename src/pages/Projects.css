@@ -64,6 +64,9 @@
   .project-img-wrapper {
     height: auto;
   }
+  .project-img-overlay {
+    visibility: none;
+  }
 }
 
 @media (max-width: 600px) {

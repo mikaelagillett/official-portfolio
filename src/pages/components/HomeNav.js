@@ -1,6 +1,6 @@
 function HomeNav() {
   return (
-    <nav className="navbar bg-body-tertiary">
+    <nav className="navbar ">
       <div className="container-fluid">
         <div className="" id="navbarNav">
           <ul className="navbar-nav align-items-center">
