@@ -1,10 +1,8 @@
-import Nav from "./components/Nav";
 import "./Contact.css";
 
 function Contact() {
   return (
     <div className="contact-page">
-      <Nav />
       <div className="contact">
         <h3>lets chat!</h3>
         <div className="email">

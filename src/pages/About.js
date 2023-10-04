@@ -1,4 +1,3 @@
-import Nav from "./components/Nav";
 import profilePicture from "../assets/profilepicture.jpg";
 import dogPhoto from "../assets/dog-photo.jpg";
 import businessPhoto from "../assets/business-photo.jpg";
@@ -8,7 +7,6 @@ import "./AboutMediaQueries.css";
 function About() {
   return (
     <div>
-      <Nav />
       <div className="about">
         <div className="about-grid">
           <div>

@@ -1,4 +1,3 @@
-import Nav from "./components/Nav";
 import weatherLarge from "../assets/weather-app-lg.png";
 import weatherSmall from "../assets/weather-app-sm.png";
 import kingLarge from "../assets/stephen-king-lg.png";
@@ -10,7 +9,6 @@ import "./Projects.css";
 function Projects() {
   return (
     <div>
-      <Nav />
       <div className="projects ">
         <div className="row">
           <div className="col-lg-3 small">

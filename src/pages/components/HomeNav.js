@@ -10,17 +10,17 @@ function HomeNav() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/about">
                 <i className="bi bi-person-circle"></i>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/projects">
                 <i className="bi bi-code"></i>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/contact">
                 <i className="bi bi-envelope"></i>
               </a>
             </li>
