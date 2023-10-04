@@ -64,7 +64,8 @@
   .project-img-wrapper {
     height: auto;
   }
-  .project-img-overlay {
+  .project-img-overlay,
+  .project-img-overlay:hover {
     visibility: none;
   }
 }
