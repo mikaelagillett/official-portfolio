@@ -1,0 +1,115 @@
+.about {
+  padding: 0 100px;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about h2 {
+  font-family: "TAN Meringue", sans-serif;
+  font-size: 55px;
+  width: 85%;
+}
+
+.about .about-grid p,
+.about-paragraph {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  padding-top: 30px;
+}
+.about .about-paragraph {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+.about .about-paragraph p {
+  width: 80%;
+  padding-right: 100px;
+}
+.about .about-grid p {
+  width: 35%;
+}
+.about span {
+  font-size: 20px;
+}
+.about .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about .profile img {
+  aspect-ratio: 1/1;
+  border-radius: 80px;
+  width: 70%;
+}
+.personal {
+  padding: 0;
+  padding-top: 40px;
+}
+.heading-personal {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+.personal h3 {
+  text-align: left;
+}
+
+.personal hr {
+  border-width: 5px;
+  border-top: black solid !important;
+  opacity: 100%;
+  text-align: left;
+  max-width: 95%;
+  width: auto;
+  height: 0;
+}
+
+.personal-grid {
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  padding-right: 80px;
+  grid-gap: 20px;
+}
+.photos img {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+.personal p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+}
+.personal-links a,
+.business-links a {
+  font-size: 50px;
+  color: black;
+}
+.personal .bi-facebook {
+  padding-left: 40px;
+}
+
+.personal-links {
+  display: flex;
+  justify-content: flex-end;
+}
+.business-links {
+  display: flex;
+  justify-content: flex-start;
+}
+.personal-link-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.business-link-section {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

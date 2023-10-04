@@ -1,0 +1,17 @@
+nav {
+  padding: 40px !important;
+}
+nav .container-fluid {
+  justify-content: space-between !important;
+}
+nav .collapse {
+  justify-content: flex-end;
+}
+
+nav img {
+  width: 100px;
+}
+nav i {
+  font-size: 45px;
+  padding: 15px 0;
+}

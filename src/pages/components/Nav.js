@@ -1,9 +1,12 @@
+import logo from "../../assets/logo.png";
+import "./Nav.css";
+
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          Navbar
+          <img src={logo} alt="logo" />
         </a>
         <button
           className="navbar-toggler"

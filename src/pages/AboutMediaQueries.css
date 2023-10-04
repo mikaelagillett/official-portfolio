@@ -1,0 +1,95 @@
+@media (max-width: 1000px) {
+  .about-grid h2 {
+    font-size: 40px;
+  }
+  .about-grid p {
+    width: 100% !important;
+  }
+  .about .about-paragraph p {
+    width: 100%;
+    padding-right: 0;
+  }
+  .personal hr {
+    display: none;
+  }
+  .heading-personal {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .heading-personal h3 {
+    font-size: 30px;
+  }
+  .personal-link-section {
+    position: relative;
+  }
+
+  .business-link-section {
+    position: relative;
+  }
+  .personal-grid {
+    padding-top: 20px;
+    grid-template-columns: 1fr;
+    padding-right: 0;
+  }
+  .personal-link-section,
+  .business-link-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .business-link-section {
+    flex-direction: row-reverse;
+  }
+  .personal-link-section p,
+  .business-link-section p {
+    display: inline-block;
+    font-size: 22px;
+  }
+  .personal-link-section i,
+  .business-link-section i {
+    font-size: 35px;
+  }
+  .personal-links {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    padding: 0 40px;
+  }
+  .about-grid {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .about-grid h2 {
+    padding-top: 30px;
+    width: 100%;
+    font-size: 35px;
+  }
+  .about-grid p {
+    font-size: 22px !important;
+  }
+  .about-paragraph p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .profile img {
+    border-radius: 100% !important;
+  }
+  .personal-link-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .business-link-section {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .photos {
+    grid-gap: 10px;
+  }
+  .photos img {
+    aspect-ratio: 1/1;
+  }
+}
