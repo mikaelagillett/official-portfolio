@@ -8,19 +8,26 @@
 }
 
 .contact h3,
-.contact a {
+.contact h4 {
   font-family: "TAN Meringue", sans-serif;
   font-size: 40px;
 }
 
-.contact a {
+.contact h4 {
   color: white;
   text-decoration: none;
+  margin: 0;
 }
-
+.contact button {
+  border: none;
+  background: none;
+}
+.contact button i {
+  font-size: 50px;
+}
 .contact .email {
   background-color: black;
-  padding: 15px;
+  padding: 20px;
 }
 
 .contact i {
@@ -38,10 +45,13 @@
   .contact h3 {
     font-size: 30px;
   }
-  .contact a {
+  .contact h4 {
     font-size: 20px;
   }
   .contact i {
     font-size: 60px;
+  }
+  .contact button i {
+    font-size: 40px;
   }
 }

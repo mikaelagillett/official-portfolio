@@ -67,7 +67,7 @@ function ProjectHighlights() {
 
       <span onMouseEnter={displayLink} onMouseLeave={removeLink}>
         &lt;
-        <a href="/" className={workLink}>
+        <a href="/projects" className={workLink}>
           see work
         </a>
         &gt;
