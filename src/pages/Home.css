@@ -47,7 +47,7 @@ section {
     max-width: 80vw;
     text-align: center;
   }
-  .navbar-nav {
+  .home .navbar-nav {
     flex-direction: row;
   }
   .home i {

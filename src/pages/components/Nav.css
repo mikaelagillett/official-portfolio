@@ -15,3 +15,10 @@ nav i {
   font-size: 45px;
   padding: 15px 0;
 }
+
+@media (max-width: 991px) {
+  nav .navbar-nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
